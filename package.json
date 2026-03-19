@@ -1,0 +1,31 @@
+{
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "name": "boot-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "esbuild": "^0.27.4",
+    "get-tsconfig": "^4.13.6",
+    "resolve-pkg-maps": "^1.0.0",
+    "undici-types": "^7.18.2"
+  },
+  "scripts": {
+    "start": "tsx ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvenKM/boot-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvenKM/boot-blog/issues"
+  },
+  "homepage": "https://github.com/EvenKM/boot-blog#readme",
+  "description": ""
+}
